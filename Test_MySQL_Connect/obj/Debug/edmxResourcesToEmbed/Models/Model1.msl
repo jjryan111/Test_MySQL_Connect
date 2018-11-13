@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="test_mysqlModelStoreContainer" CdmEntityContainer="test_mysqlEntities">
+    <EntitySetMapping Name="guhs">
+      <EntityTypeMapping TypeName="test_mysqlModel.guh">
+        <MappingFragment StoreEntitySet="guh">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Thing1" ColumnName="Thing1" />
+          <ScalarProperty Name="Thing2" ColumnName="Thing2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
